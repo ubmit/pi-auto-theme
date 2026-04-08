@@ -4,6 +4,8 @@
 
 A simple extension for the [pi coding agent](https://github.com/mariozechner/pi) that automatically changes the theme from dark to light (and vice versa) based on the theme of your operating system.
 
+![pi-auto-theme demo](./pi-theme.gif)
+
 ## Features
 
 - **Instant Reactions**: This extension does **NOT** depend on 'polling' every N seconds. Instead, it uses [crossterm-system-theme](https://github.com/championswimmer/crossterm-system-theme) with a native listener for theme changes, allowing it to react to OS-level theme changes instantly. 
