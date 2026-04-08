@@ -16,11 +16,25 @@ A simple extension for the [pi coding agent](https://github.com/mariozechner/pi)
 
 ## Installation
 
+Install the extension globally:
+
 ```bash
-npm install -g pi-auto-theme
+pi install npm:pi-auto-theme
 ```
 
-Or just point pi to the local directory:
+Install it only for the current project:
+
+```bash
+pi install npm:pi-auto-theme -l
+```
+
+Or run it temporarily without installing:
+
+```bash
+pi -e npm:pi-auto-theme
+```
+
+If you have cloned the repository, you can run it from the local directory:
 
 ```bash
 pi -e ./index.ts
