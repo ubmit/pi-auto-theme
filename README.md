@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/pi-auto-theme.svg)](https://www.npmjs.com/package/pi-auto-theme)
 
-A simple extension for the [pi coding agent](https://github.com/mariozechner/pi) that automatically changes the theme from dark to light (and vice versa) based on the theme of your operating system.
+A simple extension for the [pi coding agent](https://github.com/badlogic/pi-mono) that automatically changes the theme from dark to light (and vice versa) based on the theme of your operating system.
 
 ![pi-auto-theme demo](./pi-theme.gif)
 
